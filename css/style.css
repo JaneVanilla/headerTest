@@ -1,0 +1,251 @@
+body {
+  color: #252525;
+  margin: 0;
+  font-family: "robotoregular";
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.header {
+  padding-top: 20px;
+  font-size: 12px;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+.header__top-content {
+  width: calc(100% - 210px);
+}
+.header__logo {
+  margin-right: 30px;
+}
+.header__logo img {
+  max-width: 210px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d7d7d7;
+}
+.header__content {
+  display: flex;
+  position: relative;
+}
+.header__banner {
+  margin-right: 30px;
+}
+
+.navigation {
+  display: flex;
+  margin: -3px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation__lnk {
+  color: #252525;
+  font-size: 12px;
+  margin-right: 21px;
+}
+.navigation__lnk:hover {
+  text-decoration: underline;
+}
+
+.user-block {
+  display: flex;
+  align-items: center;
+  margin-top: -2px;
+}
+.user-block__btn {
+  font-size: 12px;
+}
+.user-block__btn:hover {
+  text-decoration: underline;
+}
+.user-block__line {
+  width: 1px;
+  height: 10px;
+  background: #252525;
+  margin: 1px 5px 0 5px;
+}
+
+.preview {
+  display: flex;
+}
+.preview__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+  margin: 0 5px;
+  border: 1px solid #d9d9d9;
+}
+.preview__img {
+  max-width: 50px;
+}
+
+.basket-info {
+  margin-right: 30px;
+}
+.basket-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.basket-info img {
+  width: 19px;
+  height: 18px;
+  margin-right: 10px;
+}
+.basket-info__lnk {
+  color: #252525;
+  text-decoration: underline;
+}
+.basket-info__item:first-child a {
+  font-size: 14px;
+}
+
+.contacts {
+  position: absolute;
+  right: 0;
+}
+.contacts__title {
+  display: inline-block;
+  margin-right: 25px;
+}
+.contacts__block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+.contacts__phone {
+  display: block;
+  padding-bottom: 19px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  transition: all 300ms ease-in-out;
+  color: #252525;
+  border-bottom: 1px solid #d7d7d7;
+}
+.contacts__phone:hover {
+  color: #ffcc00;
+}
+.contacts__location {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+.contacts__location-btn {
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 1px dotted #333333;
+}
+
+.triangle {
+  width: 8px;
+  height: 9px;
+  display: inline-block;
+  margin-right: 3px;
+  background: #252525;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  transform: rotate(90deg);
+}
+
+.mainNavigation {
+  position: relative;
+  margin-top: 27px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 0 3px rgba(0, 0, 0, 0.25);
+  background: #252525;
+}
+.mainNavigation__wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.mainNavigation__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainNavigation__list--yellow {
+  background: #ffcc00;
+}
+.mainNavigation__list--yellow .mainNavigation__lnk {
+  color: #252525;
+}
+.mainNavigation__list--black {
+  background: #252525;
+}
+.mainNavigation__list--black .mainNavigation__lnk {
+  color: #fff;
+}
+.mainNavigation__list:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.mainNavigation__list:last-child {
+  position: absolute;
+  right: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.mainNavigation__item {
+  padding: 0 18px;
+}
+.mainNavigation__lnk {
+  font-size: 14px;
+  line-height: 34px;
+  font-family: "robotobold";
+}
+.mainNavigation img {
+  display: block;
+}
+.mainNavigation__lnk--uppercase {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.mainNavigation__item--blackEmpty {
+  width: 60px;
+  height: 100%;
+  background: #252525;
+  box-sizing: border-box;
+}
+.mainNavigation__item--search {
+  padding: 0 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
